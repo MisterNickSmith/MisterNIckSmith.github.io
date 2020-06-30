@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+<meta charset 'utf-8'>
+<html> 
+<title> My First Graphic </title>
+<body> 
+<div class="main" id= "chart"> 
+
+<style type="text/css"> 
+
+body{ 
+  background: #ccc; 
+  width: 100%;  
+} 
+
+#chart {
+background-color: #fff;
+width: 1000px; 
+height: 500px; 
+margin: 50px auto;
+border: solid 1px #000;
+}
+
+svg {
+background-color; #fff;
+}
+</style>
+
+</div> 
+<script src="https://d3js.org/d3.v3.min.js"></script>
+<script>
+var height = 100; 
+var width = 100; 
+var svg = d3.select('#chart')
+.append('svg')
+.attr('width', width + 'px')
+.attr('height', height + 'px'); 
+
+</script> 
+
+</body> 
+
+</html> 
+
