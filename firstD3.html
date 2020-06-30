@@ -26,8 +26,7 @@ background-color; #fff;
 </style>
 
 </div> 
-<script src="https://d3js.org/d3.v3.min.js"></script>
-<script>
+<script src="https://d3js.org/d3.v3.min.js">
 
 var svg = d3.select('#chart')
 .append('svg')
@@ -35,7 +34,7 @@ var svg = d3.select('#chart')
 .attr('height', height + 'px'); 
 
 
-/*d3.csv("Downloads/coretrends.csv").then(function(data)) {
+d3.csv("Downloads/coretrends.csv").then(function(data)) {
  svg.selectAll('.dot')
  .data(data)
  .enter()
@@ -46,7 +45,7 @@ var svg = d3.select('#chart')
  .attr(fill, '#000'); 
    
 
-}*/
+}
 
 
 </script> 
