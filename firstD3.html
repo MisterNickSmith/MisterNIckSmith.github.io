@@ -14,7 +14,7 @@ body{
 
 #chart {
 background-color: #ccc;
-width: 100px; 
+width: 1000px; 
 height: 500px; 
 margin: 50px auto;
 border: solid 1px #000;
@@ -35,7 +35,7 @@ var svg = d3.select('#chart')
 .attr('height', height + 'px'); 
 
 
-d3.csv("Downloads/coretrends.csv").then(function(data)) {
+/*d3.csv("Downloads/coretrends.csv").then(function(data)) {
  svg.selectAll('.dot')
  .data(data)
  .enter()
@@ -46,7 +46,7 @@ d3.csv("Downloads/coretrends.csv").then(function(data)) {
  .attr(fill, '#000'); 
    
 
-}
+}*/
 
 
 </script> 
